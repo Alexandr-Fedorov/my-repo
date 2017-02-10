@@ -1,0 +1,18 @@
+  <style>
+    article {
+      text-align: center;
+    }
+    h1 {
+      color: Crimson;
+      text-align: center;
+    }
+
+    span {
+      text-decoration: underline;
+      color: DarkBlue;
+    } 
+    img {
+      width: 300px;
+      border: 4px double #f0f;
+    }
+  </style>
