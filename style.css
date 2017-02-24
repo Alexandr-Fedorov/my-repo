@@ -1,0 +1,57 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+			font-size: 30px;
+		}
+		header {
+			background: DimGray;
+			color: white;
+			padding: 50px;
+			padding-top: 80px;
+		}
+		aside {
+			color: white;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.aside1 {
+			background-color: LightGreen;
+			float: left;
+			width: 200px;
+			position: relative;
+			left: 40%;
+			overflow: hidden;
+		}
+		.aside2 {
+			background-color: IndianRed;
+			float: right;
+			width: 200px;
+			position: relative;
+			left: 40%;
+			overflow: hidden;
+		}
+		.content {
+			margin: 0 200px;
+			background-color: MediumSlateBlue;
+			padding: 20px 50px;
+			position: relative;
+			left: 40%;
+		}
+		.container2 {
+			background-color: IndianRed;
+			overflow: hidden;
+		}
+		.container1 {
+			background-color: LightGreen;
+			position:relative;
+			right: 40%;
+		}
+		footer {
+			background-color: DimGray;
+			color: white;
+			padding: 50px;
+			padding-bottom: 80px;
+			clear: both;
+		}
