@@ -1,0 +1,27 @@
+   li::before {
+     content: "★ ";
+   }
+   ul ul li::before {
+   	content: "❤";
+   	padding-right: 5px
+   }
+   ul ul ul li::before{
+   	content: "☀"
+   }
+ul {
+list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+  }

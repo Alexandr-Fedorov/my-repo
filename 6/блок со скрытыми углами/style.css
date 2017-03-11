@@ -1,0 +1,9 @@
+.cutted {
+  margin: 10px auto;
+  width: 350px;
+  padding: 30px 20px;;
+  background-color: #008000;
+  color: white;
+  font-family: serif;
+  box-shadow: 10px 0 0 -5px #008000, -10px 0 0 -5px #008000;
+}

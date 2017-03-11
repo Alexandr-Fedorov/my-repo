@@ -1,0 +1,28 @@
+.button {
+        display: block; 
+        width: 120px; 
+        height: 30px; 
+        background-color: #ffb0d4; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 15px; 
+        font-family: Verdana; 
+        color: black;
+        box-sizing: border-box;
+        padding-top: 3px;
+        background: linear-gradient( 0deg,#ffb0d4 5%, white 100%);
+ 
+}
+.wrapper {
+border: 2px solid #ffb0d4;
+border-radius: 20px; 
+padding: 3px;
+width: 120px;
+height: 30px;
+
+
+}
+
+.button {
+
+        
