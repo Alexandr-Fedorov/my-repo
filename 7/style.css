@@ -1,0 +1,13 @@
+.round {
+        width: 200px;
+        height: 200px;
+        background: #e3e3e3;
+        border: 3px solid black;
+        line-height: 300px;
+        text-align: center;
+        font-size: 50px;
+        color: blue;
+        border-radius: 150px;
+        margin: 200px auto;
+
+}

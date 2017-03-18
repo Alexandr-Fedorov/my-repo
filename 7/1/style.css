@@ -1,0 +1,49 @@
+.Shadow {
+	font-family: Arial;
+	font-size: 40px;
+	width: 270px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 15px;
+	background-color: #8bb5f4;
+	color: white;
+	overflow: hidden;
+	text-shadow: 1px 1px 0 #337ded ,
+	2px 2px 0 #337ded,
+	3px 3px 0 #337ded,
+	4px 4px 0 #337ded,
+	5px 5px 0 #337ded,
+	6px 6px 0 #337ded,
+	7px 7px 0 #337ded,
+	8px 8px 0 #337ded,
+	9px 9px 0 #337ded,
+	10px 10px 0 #337ded,
+	11px 11px 0 #337ded,
+	12px 12px 0 #337ded,
+	13px 13px 0 #337ded,
+	14px 14px 0 #337ded,
+	15px 15px 0 #337ded,
+	16px 16px 0 #337ded,
+	17px 17px 0 #337ded,
+	18px 18px 0 #337ded,
+	19px 19px 0 #337ded,
+	20px 20px 0 #337ded,
+	21px 21px 0 #337ded,
+	22px 22px 0 #337ded,
+	23px 23px 0 #337ded,
+	24px 24px 0 #337ded,
+	25px 25px 0 #337ded,
+	26px 26px 0 #337ded,
+	27px 27px 0 #337ded,
+	28px 28px 0 #337ded,
+	29px 29px 0 #337ded,
+	30px 30px 0 #337ded,
+	31px 31px 0 #337ded,
+	32px 32px 0 #337ded,
+	33px 33px 0 #337ded,
+	34px 34px 0 #337ded,
+	35px 35px 0 #337ded,
+	36px 36px 0 #337ded;
+
+
+}
