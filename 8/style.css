@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #555;
+	font-size: 14px;
+}
+*:focus{
+	outline: none;
+}
+form{
+	width: 600px;
+	margin: 90px auto;
+}
+
+[class^="form-control"]  {
+	margin-bottom: 10px;
+}
+[class^="form-control"] input[type="text"],
+[class^="form-control"] input[type="email"]
+{
+	padding: 8px 11px;
+    border: 1px solid #ccc;
+}
+span{
+	padding: 8px 0;
+	text-align: center;
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+
+.form-control1 span{
+    float: left;
+    width: 7%;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.form-control1 input[type="email"]{
+    width: 93%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.form-control2 span{
+    width: 21%;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    float: right;
+}
+.form-control2 input[type="email"]{
+    width: 79%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.form-control3 :nth-child(1){
+    width: 6%;
+    float: left;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.form-control3 :nth-child(3){
+    width: 8%;
+    float: right;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.form-control3 input[type="text"]{
+	width: 86%;
+}
+
+.form-control4 span{
+    width: 32.5%;
+    float: left;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.form-control4 input[type="text"]{
+    width: 67.5%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus{
+	border: 1px solid #66AFE9;
+	box-shadow:0 0 8px 0 rgba(110, 178, 234 , 0.6); 
+}
+ h1{
+	color: #333;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+button {
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 8px 12px;
+	cursor: pointer;
+}
+button:hover{
+	background-color:#eee;
+}
+button:focus{
+	background:linear-gradient( #d4cece,rgba(183, 183, 183, 0.5) );
+	border:  1px  solid rgb(109, 159, 239);
+	box-shadow: 0 0 2px 0 rgb(109, 159, 239);
+
+}
