@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		form {
+			width: 400px;
+			margin:20px auto;
+            border:1px solid black;
+			padding: 15px;
+    		font-family: arial;
+    		font-size: 14px;
+    	}
+
+    	.radio label {
+  			display: inline-block;
+  			margin-right: 10px;
+    	}
+    	
+        input {
+            width: 100%;
+            border:1px solid black;
+            margin-bottom: 13px;
+            margin-top: 5px;
+            padding: 5px 0;
+            text-indent:5px;
+        }
+
+    	input[type="radio"] {
+    		display: inline-block;
+			
+    	}
+    	.buttom {
+            display: block;
+    		height: 22px;
+    		width: 120px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+    		background-color: black;
+    		color: white;
+    		line-height: 2px;
+    	}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label for="name">Ваше имя</label>
+			<input type="text" placeholder="Например, Иванов Иван Иванович">
+		</div>
+		<div>
+			<label for="job">Ваш род деятельности</label>
+			<input type="text" placeholder="Напимер, Выращиваю огурцы">
+		</div>
+	   <p>Согласны ли Вы с условиями?<p>
+	   <div class="radio">
+	       	<label><input  name="sure" type="radio" value="yes"><span>Категорически Да!</span></label>
+    		<label><input  name="sure" type="radio" value="no"><span> Категорически НЕТ!</span></label>
+    	</div>
+       	<input class="buttom" type="submit" value="Отправить">
+       
+  </form> 	
+</body>
+</html>
