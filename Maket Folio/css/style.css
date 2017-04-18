@@ -1,0 +1,410 @@
+@import 'reset.css';
+.wrap-nav {
+	background-color: #02918c;
+	width: 100%;
+	height: 66px;
+	}
+
+.myfolio {
+	color: #ffffff;
+	padding-left: 51px;
+	float: left;
+}
+
+.myfolio span {
+	color: #cfc91d;
+}
+
+.myfolio,
+span {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 800;
+	padding-top: 18px;
+	padding-bottom: 23px;
+}
+
+.wrap-nav ul {
+	right: 44px;
+	position: absolute;
+}
+
+.wrap-nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #ffffff;
+	font-size: 12px;
+	padding-top: 26px;
+
+	padding-left: 50px;
+}
+
+.wrap-nav ul li:after {
+  content: '';
+  display: block; 
+  height: 1px;
+  width: 0%; 
+  background-color: #ffffff; 
+  transition: width 0.3s ease-in-out; 
+}
+
+.wrap-nav ul li:hover:after {
+  width: 100%;
+}
+
+.wrap-page1 {
+	text-align: center;
+}
+
+.page1 {
+	background-image: url('bgi-1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+ 	display: block;
+ 	padding-top: 210px;
+ 	color: #ffffff;
+ 	text-align: center;
+
+}
+
+.page1 p:nth-child(1) {
+	font-size: 30px;
+	margin-bottom: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page1 p:nth-child(2) {
+	font-size: 68px;
+	letter-spacing: 23px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 18px;
+}
+
+.page1 p:nth-child(3) {
+	font-size: 18px;
+	margin-bottom: 52px;
+}
+
+.page1 img {
+	margin-bottom: 52px;	
+}
+
+.know-more {
+	position: relative;
+	display: inline-block;
+	color: #0b1016;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: #cfc91d;
+	padding-top: 19px;
+	padding-bottom: 17px;
+	padding-right: 45px;
+	padding-left: 44px;
+	margin-bottom: 210px;
+}
+
+.know-more:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0%;
+	background-color: #0b1016;
+	transition: width 0.3s ease-in-out;
+}
+
+.know-more:hover:after{
+	width: 100%;
+}
+
+.know-more:hover {
+	opacity: 0.85;
+}
+
+.wrap-page2 {
+	width: 100%;
+	text-align: center;
+}
+
+.page2 p:nth-child(1) {
+	padding-top: 98px;
+	color: #02918c;
+	font-size: 46px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.page2 p:nth-child(2) {
+	padding-top: 32px;
+	color: #7e8287;
+	font-size: 16px;
+}
+
+.page2 p:nth-child(3) {
+	padding-top: 36px;
+	padding-bottom: 80px;
+	color: #7e8287;
+	font-size: 16px;
+}
+
+.page2 p:nth-child(3) span {
+	font-size: 23px;
+	width: 875px;
+	text-transform: none;
+}
+
+.trigger-holder ul li {
+	display: inline-block;
+	width: 288px;
+	color: #7e8287;
+	border-right: 1px solid #7e8287;
+}
+
+.trigger-holder img {
+	padding-top: 35px;
+	padding-bottom: 31px;
+}
+
+.trigger-holder p:nth-child(2) {
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+
+.trigger-holder p:nth-child(3) {
+	font-size: 11px;
+	padding-bottom: 57px;
+}
+
+.trigger-holder ul li:nth-child(4) {
+	border-right: none;
+	padding-bottom: 99px;
+}
+
+.wrap-page3 {
+	background-color: #f0f0e8;
+	width: 100%;
+
+}
+
+.image {
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	width: 50%;
+}
+
+.page3 {
+	padding-bottom: 84px;
+}
+
+.text {
+	padding-left: 93px;
+}
+
+.text p:nth-child(1) {
+	color: #02918c;
+	font-size: 46px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-top: 74px;
+	padding-bottom: 45px;
+}
+
+.text p:nth-child(2),
+.text p:nth-child(3),
+.text p:nth-child(4) {
+	font-size: 16px;
+	color: #7e8287;
+}
+
+.text p:nth-child(2) {
+	padding-bottom: 31px;
+}
+
+.text p:nth-child(3) {
+	padding-bottom: 27px;
+}
+
+.triggers {
+	max-width: 644px;	
+	
+}
+
+.trig {
+	display: inline-block;
+}
+
+.trig p:nth-child(3) {
+	font-size: 11px;
+	color: #7e8287;
+}
+
+.trig p:nth-child(2) {
+	font-size: 16px;
+	color: #7e8287;
+	font-weight: 800;
+	padding-bottom: 19px;
+}
+
+.trig img {
+	padding-top: 59px;
+	padding-bottom: 17px;
+}
+
+.trig:nth-child(1),
+.trig:nth-child(3) {
+	padding-left: 95px;
+	padding-right: 114px;
+}
+
+.wrap-page4 {
+	text-align: center;
+}
+
+.page4 p:nth-child(1) {
+	padding-top: 98px;
+	color: #02918c;
+	font-size: 46px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.page4 p:nth-child(2) {
+	padding-top: 32px;
+}
+
+.page4 p:nth-child(3){
+	padding-top: 30px;
+	padding-bottom: 27px;
+}
+
+.page4 p:nth-child(2),
+.page4 p:nth-child(3),
+.page4 p:nth-child(4) {
+	color: #7e8287;
+	font-size: 16px;
+}
+
+table {
+	margin-top: 78px;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	vertical-align: bottom;
+	font-size: 0;
+}
+
+.hover img {
+	width: 100%;
+	display: block;
+}
+
+.wrap-page5 {
+	text-align: center;
+}
+
+.page5 p:nth-child(1) {
+	padding-top: 98px;
+	color: #02918c;
+	font-size: 46px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.page5 p:nth-child(2) {
+	padding-top: 32px;
+}
+
+.page5 p:nth-child(3) {
+	padding-top: 30px;
+	padding-bottom: 27px;
+}
+
+.page5 p:nth-child(2),
+.page5 p:nth-child(3),
+.page5 p:nth-child(4) {
+	color: #7e8287;
+	font-size: 16px;
+}
+.page5 p:nth-child(4) {
+	padding-bottom: 70px;
+}
+form {
+	background-color: #0b0b0b;
+	width: 100%;
+}
+
+.form-control {
+	color: #7e8287;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 69px;
+}
+
+input[type="text"],
+textarea {
+	width: 641px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0b0b0b;
+	border: none;
+	border-bottom: 1px solid #7e8287;
+	color: #7e8287;
+	text-align: center;
+}
+
+input[type="text"], 
+textarea:focus {
+	outline: none;
+}
+
+textarea {
+	border-top: 1px solid #7e8287;
+	width: 917px;
+	min-height: 90px;
+}
+
+.form-control:nth-child(3) {
+	padding-top: 69px;
+}
+
+.form-control:nth-child(4) {
+	padding-top: 59px;
+}
+
+[type="submit"] {
+	position: relative;
+	display: inline-block;
+	color: #0b1016;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: #cfc91d;
+	width: 196px;
+	height: 47px;
+	letter-spacing: 3px;
+	border: none;
+	outline: none;
+	margin-bottom: 70px;
+	transition: .1s;
+	transform: scale(1.0);
+}
+
+footer {
+	padding-top: 35px;
+	padding-bottom: 27px;
+	text-align: center;
+	color: #7e8287;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #000000;
+}
+
+
+
